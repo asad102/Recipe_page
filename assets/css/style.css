@@ -580,6 +580,10 @@ video {
   display: table;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-full {
   height: 100%;
 }
@@ -598,6 +602,14 @@ video {
 
 .list-disc {
   list-style-type: disc;
+}
+
+.grid-cols-\[0_1fr_0\] {
+  grid-template-columns: 0 1fr 0;
+}
+
+.grid-rows-\[1fr_auto\] {
+  grid-template-rows: 1fr auto;
 }
 
 .flex-col {
@@ -626,6 +638,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.justify-self-center {
+  justify-self: center;
 }
 
 .overflow-hidden {
