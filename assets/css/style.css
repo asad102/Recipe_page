@@ -587,10 +587,6 @@ video {
   height: 100%;
 }
 
-.max-h-\[1770px\] {
-  max-height: 1770px;
-}
-
 .max-h-\[2043px\] {
   max-height: 2043px;
 }
@@ -637,6 +633,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .overflow-hidden {
@@ -694,6 +694,11 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pl-2 {
