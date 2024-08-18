@@ -554,6 +554,10 @@ video {
   --tw-contain-style:  ;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -583,16 +587,16 @@ video {
   height: 100%;
 }
 
+.max-h-\[1770px\] {
+  max-height: 1770px;
+}
+
+.max-h-\[2043px\] {
+  max-height: 2043px;
+}
+
 .min-h-screen {
   min-height: 100vh;
-}
-
-.max-w-screen-desktop {
-  max-width: 736px;
-}
-
-.max-w-sm {
-  max-width: 24rem;
 }
 
 .max-w-screen-mobile {
@@ -615,6 +619,10 @@ video {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .gap-10 {
   gap: 2.5rem;
 }
@@ -629,10 +637,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-1\.5 {
-  gap: 0.375rem;
 }
 
 .overflow-hidden {
@@ -679,45 +683,17 @@ video {
   stroke-width: 1;
 }
 
-.p-0 {
-  padding: 0px;
+.p-10 {
+  padding: 2.5rem;
 }
 
 .p-6 {
   padding: 1.5rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 
 .pl-2 {
@@ -732,12 +708,13 @@ video {
   font-family: Young Serif, sans Serif;
 }
 
-.text-\[28px\] {
-  font-size: 28px;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
-.text-\[40px\] {
-  font-size: 40px;
+.text-\[28px\] {
+  font-size: 28px;
 }
 
 .text-base {
@@ -748,11 +725,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold {
