@@ -578,6 +578,10 @@ video {
   height: auto;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .min-h-\[1956px\] {
   min-height: 1956px;
 }
@@ -729,6 +733,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
 }
 
 .font-bold {
