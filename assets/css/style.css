@@ -574,10 +574,6 @@ video {
   height: 1700px;
 }
 
-.h-\[300px\] {
-  height: 300px;
-}
-
 .min-h-\[1956px\] {
   min-height: 1956px;
 }
@@ -628,10 +624,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .rounded-3xl {
@@ -742,10 +734,6 @@ video {
 
 .leading-6 {
   line-height: 1.5rem;
-}
-
-.leading-none {
-  line-height: 1;
 }
 
 .tracking-normal {
